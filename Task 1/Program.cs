@@ -7,10 +7,10 @@ int[,] array = {
             };
 
 Console.WriteLine("Enter the row index: ");
-int rowIndex = int.Parse(Console.ReadLine());
+int rowIndex = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Enter the column index: ");
-int colIndex = int.Parse(Console.ReadLine());
+int colIndex = Convert.ToInt32(Console.ReadLine());
 
 int result = GetElementValue(array, rowIndex, colIndex);
 
